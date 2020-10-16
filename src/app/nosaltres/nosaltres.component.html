@@ -1,0 +1,71 @@
+<body>
+  <section>
+    <div class="container" >
+      <div class="contactinfo" *ngIf="infoNosotros === 'contact'">
+        <div>
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span> <img src="../../assets/contact-icons/032-placeholder.png"> </span>
+              <span>2912 Meadowbrook Road<br>
+                    Los Angeles, CA<br>
+                    90017</span>
+            </li>
+            <li>
+              <span> <img src="../../assets/contact-icons//025-arroba.png"> </span>
+              <span>quiim2000@gmail.com</span>
+            </li>
+            <li>
+              <span> <img src="../../assets/contact-icons/029-telephone-1.png"> </span>
+              <span>605 27 30 35</span>
+            </li>
+          </ul>
+        </div>
+        <ul class="sci">
+          <li><a href="#"><img src="../../assets/social-media-logos/036-facebook.png"></a></li>
+          <li><a href="#"><img src="../../assets/social-media-logos/029-instagram.png"></a></li>
+          <li><a href="#"><img src="../../assets/social-media-logos/021-pinterest.png"></a></li>
+          <li><a href="#"><img src="../../assets/social-media-logos/018-reddit.png"></a></li>
+          <li><a href="#"><img src="../../assets/social-media-logos/008-twitter.png"></a></li>
+        </ul>
+        <button type="button" class="btn btn-info" (click)="mostrarMapa('map')" style="margin-top: 10px;">Map</button>
+      </div>
+
+        <div class="contactinfo" *ngIf="infoNosotros === 'map'">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10033.125886800415!2d0.6235797528284842!3d41.61540553022877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6e068350330f9%3A0x8aca0fa5dd061a60!2sSeu%20Vella!5e0!3m2!1sca!2ses!4v1602686863944!5m2!1sca!2ses" width="300" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <button type="button" class="btn btn-success" (click)="mostrarMapa('contact')" style="margin-top: 10px;">Contact</button>
+        </div>
+
+      <div class="contactForm">
+        <h2>Send a Message</h2>
+        <div class="formBox">
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>First Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Last Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Email Address</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="" required>
+            <span>Mobile Number</span>
+          </div>
+          <div class="inputBox w100">
+            <textarea name="" required></textarea>
+            <span>Write your message here...</span>
+          </div>
+          <div class="inputBox w100">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</section>
+</body>

@@ -1,0 +1,166 @@
+.gallery-block{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s ease;
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: center;
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px;
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+	}
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  /* background: #5684c9; */
+  font-family: 'Bangers', 'cursive';
+  padding: 0 20px;
+}
+
+.card-container {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 8px 5px 8px 6px rgba(0, 0, 0, .2);
+
+}
+
+.header{
+  border-right: 1px solid #ddd;
+}
+
+.descripcion {
+  background: #fbfbfb;
+}
+
+.header, .descripcion {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.header a {
+  position: relative;
+  display: block;
+}
+
+.header img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+  margin: 20px 30px;
+  transition: .2s;
+}
+
+.header a:hover img {
+  box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.header h2 {
+  color: #f0522a;
+}
+
+.header h4 {
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  position: relative;
+}
+
+.descripcion p{
+  margin: 20px 30px;
+}
+
+.descripcion .social{
+  margin-top: 20px;
+}
+
+.descripcion .social a {
+  display: inline-block;
+  padding: 0 15px;
+  color: #f0522a;
+}
+
+@media (max-width:640px){
+  .card-container{
+    display: block;
+    width: 450px;
+  }
+
+  .header{
+    padding: 20px 20px 5px 20px;
+  }
+
+  .descripcion{
+    padding: 5px 20px 20px 20px;
+    background: transparent;
+  }
+
+  .header h4{
+    margin: 0;
+  }
+}
+
+

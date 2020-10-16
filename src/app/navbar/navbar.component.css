@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+  background: #000;
+  min-height: 200vh;
+} */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 100000;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-transform: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+header .sticky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+
+  color: #000;
+}
+
+header ul li :hover {
+  color: #ff137d;
+  font-size: 18px;
+}
+
+/* HEADER BANNER */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #008aff, #ff137d), url(../../assets/bg.jpg);
+  background-size: 100%;
+  background-blend-mode: screen;
+}
+
+section .content {
+  max-width: 700px;
+}
+
+section .content h2{
+  font-size: 3em;
+  color: #fff;
+  font-weight: 900;
+}
+
+section .content p{
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 700;
+}
+
+section img{
+  position: relative;
+  max-width: 350px;
+  z-index: 10000;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+img{
+  width: 20%;
+}
+
+
+
