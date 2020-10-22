@@ -98,7 +98,9 @@ section {
   padding: 100px;
   box-sizing: border-box;
   background: linear-gradient(180deg, #008aff, #ff137d), url(../../assets/bg.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
   background-blend-mode: screen;
 }
 
